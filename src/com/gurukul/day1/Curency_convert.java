@@ -5,34 +5,10 @@ import java.util.Scanner;
 public class Curency_convert {
 
 	public static void main(String[] args) {
-		int amt;
-	/*	int twoThousand;
-		int five;
-		int ten;
-		int twenty;
-		int fifty;
-		int hundrad;
-		int twoHundrad;
-		int fiveHundrad;		
-		int reminder1;
-		int reminder2;
-		int reminder3;		
-		int reminder4;
-		int reminder5;
-		int reminder6;
-		int reminder7;
-		int reminder8;*/
+		int amt;	
 		
 		Scanner sc = new Scanner(System.in);
-		amt=sc.nextInt();
-		/*
-		 * twoThousand=amt/2000; reminder1=amt%2000; fiveHundrad=reminder1/500;
-		 * reminder2=reminder1%500; twoHundrad= reminder2/200; reminder3= reminder2%200;
-		 * hundrad=reminder3/100; reminder4=reminder3%100; fifty =reminder4/50;
-		 * reminder5=reminder4%50; twenty= reminder5/20; reminder6= reminder5%20; ten=
-		 * reminder6/10; reminder7= reminder6%10; five=reminder7/5;
-		 * reminder8=reminder7/5;
-		 */
+		amt=sc.nextInt();	
 			
 		int twothousand= amt/2000;
 		amt=amt%2000;
@@ -57,9 +33,7 @@ public class Curency_convert {
 		System.out.println(fifty+ "*50="+(fifty*50));
 		System.out.println(twenty+ "*20="+(twenty*20));
 		System.out.println(ten+ "*10="+(ten*10));
-		System.out.println(five+ "*5="+(five*5));
-		
-				
+		System.out.println(five+ "*5="+(five*5));			
 		
 
 	}

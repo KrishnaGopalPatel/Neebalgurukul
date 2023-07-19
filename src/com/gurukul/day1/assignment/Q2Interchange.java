@@ -13,7 +13,7 @@ public class Q2Interchange {
 		
 		Scanner sc = new Scanner(System.in);
 		n= sc.nextInt();
-		n1= n/100;
+		n1= n/100; 
 		n2=n%100;
 		a=n2*100+n1;
 		System.out.println(a);
